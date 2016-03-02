@@ -6,7 +6,7 @@
 
 
 - name: Deploy edxapp
-  hosts: 52.23.160.171
+  hosts: edxapp
   sudo: True
   gather_facts: True
   roles:
